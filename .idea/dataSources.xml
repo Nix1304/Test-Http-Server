@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MongoDB - @localhost" uuid="726d67bd-05ce-4d11-9b55-bafeed8d1297">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="0e7fab57-1230-4b48-a4ff-6398cfcc6b4d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</project>
